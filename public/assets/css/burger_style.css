@@ -1,0 +1,69 @@
+.burgerBd /* body */
+{
+    background-color: #e9d298;
+    /* margin-left: 33% */
+}
+
+.burgerImg{
+    width: 1200 px;
+    height: 300 px;
+}
+
+#mainMenu{
+    color: #ffffff;
+}
+
+.burger{
+    margin-top: 30px;
+    width: 800px;
+}
+
+.burgerList{
+    margin-top: 10px;
+    width: 800px;
+    color: #58585c;
+    font-weight: bold;
+}
+
+.listHeading{
+    margin-top: 20px;
+    width: 500px;
+    color: #58585c;
+    font-weight: bold;
+}
+
+.orderBurger{
+    padding-left: 20px;
+}
+
+span.order{
+    display: inline-block;
+    padding: 5px;
+    width: 350px;
+    height: 30px;
+}
+
+.orderBtn{
+    margin-left: 10px;
+}
+
+
+.orderScr{
+    height: 250px;
+    overflow: scroll;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.orderNew{
+    margin-top: 10px;
+    width: 200px;
+    color: #58585c;
+    /* font-weight: bold; */
+}
+
+.menuItem{
+    margin-top: 10px;
+}
