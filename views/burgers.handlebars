@@ -1,0 +1,55 @@
+<div class="row">
+    <body style="background-color: #cecfc5;">
+    <div class="container">
+        <div class="justify-content-center rounded">
+            <div class="col col-lg-12 input-group mb-3 burger">
+                <form class="newBurger">
+                </form>
+                <div class="row">                
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        <h4>Enter Your Burger:</h4>
+                        <input type="text" class="form-control form-control-lg" id="burger" name="burgerName">
+                        <button id ="orderBurger" class="btn btn-outline-secondary orderBtn" type="submit">Order Burger</button>
+                    </span>
+                </div>
+
+                    <div class="col col-lg-8">
+                        <h3 class="listHeading">Your Order:</h3>  {{!-- change it to customer name later   --}}
+                        <div class="scrollmenu burgerList orderScr" id="curOrder">
+                            {{!-- {{#each burgers}}
+                            <a href="#" class="burgerList">
+                                <h4>
+                                {{burger}}
+                                </h4>
+                            </a>
+                            {{/each}} --}}
+                        </div>
+                    </div>
+
+                    <div class="col col-lg-4">
+                        <h3 class="listHeading">Order from the menu:</h3>                        
+                        <div class="scrollmenu burgerList orderScr" id="newOrder">
+                            {{#each burgers}}
+                                <span class="input-group">    
+                                    <h4 class="menuItem"><a href="#" id = "{{id}}" value="{{burger}}" class="burgerList menu" >
+                                        {{burger}}   {{!-- change it to menu  --}}                                
+                                    </a></h4>
+                                </span> 
+                            {{/each}}
+                        </div>
+                    </div>
+                </div>
+
+            </div>   
+        </div>    
+    </div>
+</div>
+
+
+{{!-- 
+<form action="/" method="POST">
+    <textarea type="text" name="wish"></textarea>
+    <input type="submit">Enter my wish!</button>
+
+</form> --}}
